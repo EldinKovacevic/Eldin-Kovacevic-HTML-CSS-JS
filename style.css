@@ -1,0 +1,500 @@
+    body {
+    
+
+    background-image: url(4.png);
+    background-position: bottom;
+    
+    
+    }
+    
+    #broj-1 {
+    
+    background-image: url(1.png);
+    background-position: center;
+    background-size: 102px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 15%;
+    top: 13%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb1 5s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-1:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb1 {
+    
+    
+     0% {box-shadow: 0 0 25px rgb(255, 208, 0);}
+    25% {box-shadow: 0 0 75px rgb(240, 7, 7);}
+    50% {box-shadow: 0 0 35px rgb(0, 17, 168);}
+    75% {box-shadow: 0 0 65px rgb(253, 173, 0);}
+    100%  {box-shadow: 0 0 35px rgb(255, 255, 255);}
+    
+    }
+    
+    #broj-2 {
+    
+    background-image: url(2.png);
+    background-position: center;
+    background-size: 57px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    top: 8%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb2 3s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-2:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb2 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-3 {
+    
+    background-image: url(3.png);
+    background-position: center;
+    background-size: 76px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 52%;
+    top: 10%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb3 5s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-3:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb3 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-4 {
+    
+    background-image: url(04.png);
+    background-position: center;
+    background-size: 135px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 69%;
+    top: 17%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb4 3s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-4:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb4 {
+    
+    
+     0% {box-shadow: 0 0 25px rgb(233, 250, 2);}
+    25% {box-shadow: 0 0 75px rgb(204, 7, 40);}
+    50% {box-shadow: 0 0 35px rgb(47, 241, 8);}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-5 {
+    
+    background-image: url(5.png);
+    background-position: center;
+    background-size: 49px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 88%;
+    top: 14%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb5 3s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-5:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb5 {
+    
+    
+     0% {box-shadow: 0 0 75px orange;}
+    25% {box-shadow: 0 0 85px pink;}
+    50% {box-shadow: 0 0 75px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 85px blue;}
+    
+    }
+    
+    
+    #broj-6 {
+    
+    background-image: url(6.png);
+    background-position: center;
+    background-size: 72px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 15%;
+    top: 64%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb6 5s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-6:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb6 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-7 {
+    
+    background-image: url(7.png);
+    background-position: center;
+    background-size: 57px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 33%;
+    top: 72%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb7 6s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-7:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb7 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-8 {
+    
+    background-image: url(8.png);
+    background-position: center;
+    background-size: 125px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 52%;
+    top: 67%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb8 7s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-8:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb8 {
+    
+    
+     0% {box-shadow: 0 0 25px rgb(252, 248, 3);}
+    25% {box-shadow: 0 0 75px rgb(255, 255, 255);}
+    50% {box-shadow: 0 0 35px rgb(32, 145, 238);}
+    75% {box-shadow: 0 0 65px rgb(51, 250, 2);}
+    100%  {box-shadow: 0 0 35px rgb(255, 255, 255);}
+    
+    }
+    
+    #broj-9 {
+    
+    background-image: url(9.png);
+    background-position: center;
+    background-size: 57px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 69%;
+    top: 60%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb9 8s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-9:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb9 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px yellow;}
+    100%  {box-shadow: 0 0 35px blue;}
+    
+    }
+    
+    #broj-10 {
+    
+    background-image: url(10.png);
+    background-position: center;
+    background-size: 116px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 86%;
+    top: 70%;
+    box-shadow: 0 0 15px blue;
+    
+    
+    animation: gumb10 9s alternate infinite;
+    
+    
+    
+    
+    
+    }
+    
+    #broj-10:hover {
+    animation-play-state:paused;
+    }
+    
+    @keyframes gumb10 {
+    
+    
+     0% {box-shadow: 0 0 25px orange;}
+    25% {box-shadow: 0 0 75px pink;}
+    50% {box-shadow: 0 0 35px violet;}
+    75% {box-shadow: 0 0 65px rgb(255, 255, 49);}
+    100%  {box-shadow: 0 0 35px rgb(0, 255, 64);}
+    
+    }
+    
+    .container{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        border-radius: 20px;
+        padding: 20px;
+        padding-right: 20px;
+        font-family: sans-serif;
+        font-size: 17px;
+    }
+    
+    [type="text"] {
+        width: 200px;
+        height: 40px;
+        font-size: 21px;
+        border-radius: 20px;
+        padding-left: 20px;
+        border: 2px solid #797979;
+        box-shadow: 12px 12px 6px;
+        text-shadow: 1px 1px 10px blue;
+    
+       
+    }
+    
+    [type="text"]:hover{
+        cursor: pointer;
+       
+    }
+    
+    select,[type="button"]{
+        width: 60px;
+        height: 35px;
+        padding-left: 8px;
+        font-size: 25px;
+        border-radius: 20px;
+        border: 2px solid #797979;
+        box-shadow: 12px 12px 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+      
+    }
+    select,[type="button"]:hover{
+        cursor: pointer;
+       
+    }
+    output{
+        font-size: 30px;
+        margin-left: 2px;
+        border: 2px solid #797979;
+        border-radius: 29px;
+        background-color: white;
+        padding-left: 15px;
+        padding-right: 13px;
+        box-shadow: 12px 12px 6px;
+        text-shadow: 1px 1px 10px red;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Eldin Kovacevic-->
